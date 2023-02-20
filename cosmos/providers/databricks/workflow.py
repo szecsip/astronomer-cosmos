@@ -294,7 +294,7 @@ class DatabricksWorkflowTaskGroup(TaskGroup):
                 databricks_conn_id=self.databricks_conn_id,
                 job_clusters=self.job_clusters,
                 existing_clusters=self.existing_clusters,
-                extra_job_params=self.extra_job_params
+                extra_job_params=self.extra_job_params,
             )
         )
 
