@@ -34,7 +34,7 @@ Run your dbt Core projects as `Apache Airflow <https://airflow.apache.org/>`_ DA
 - Utilize Airflow's data-aware scheduling to run models immediately after upstream ingestion
 - Turn each dbt model into a task/task group complete with retries, alerting, etc.
 
-Quickstart
+Quickstart2
 __________
 
 Check out the Quickstart guide on our `docs <https://astronomer.github.io/astronomer-cosmos/#quickstart>`_.
