@@ -12,4 +12,4 @@ jobs:
         env:
           OPENAI_KEY: ${{ secrets.OPENAI_KEY }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          CONFIG.MODEL: ${{ variables.OPENAI_MODEL }}
+          CONFIG.MODEL: ${{ env.OPENAI_MODEL }}
